@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/EricaNWolfe/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -86,21 +86,21 @@
         motdInterval: 5,
         motd: "Temporary Message of the Day",
         filterChat: true,
-        etaRestriction: false,
+        etaRestriction: true,
         welcome: true,
         opLink: null,
         rulesLink: null,
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: null,
+        website: "We do not have a website for this room",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/EricaNWolfe/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/EricaNWolfe/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
